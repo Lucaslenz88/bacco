@@ -1,0 +1,81 @@
+body{
+    padding-top: 80px;
+}
+  #whatsappLink{
+      color: #FFF!important;
+}
+
+  #whatsappLink, ul>li>a:hover{
+    color: rgb(117, 117, 117)!important;
+}
+
+#tienda, #nosotros{
+    padding-top: 85px;
+    min-height: 100vh;
+    line-height: 200%;
+    margin-bottom: 5em;
+    border-bottom: 2em solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contacto{
+    padding-top: 85px;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    padding-bottom: 2em;
+    font-size: 3em;
+}
+
+h4{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  #about{
+      height: 100vh;
+      background-image: url(/img/pexels-adrien-olichon-2537608.jpg);
+      background-size: cover;
+  }
+
+  main a{
+      color: black!important;
+  }
+  main a:hover{
+    color: rgb(117, 117, 117)!important;
+  }
+  
+
+#love{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h6{
+    font-size: smaller;
+}
